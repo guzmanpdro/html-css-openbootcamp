@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button::after {
+  content: "Pasa por encima";
+}
+
+.button {
+  width: 200px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: #fff;
+  background: #32d4a4;
+}
+
+.button:hover.button::after {
+  content: "Hecho!";
+}
