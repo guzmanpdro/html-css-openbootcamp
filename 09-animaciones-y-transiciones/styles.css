@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  background-color: #4299e1;
+  font-size: inherit;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: .25rem;
+  white-space: nowrap;
+  transition: all .4s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #4299e1;
+  border: 1px solid #4299e1;
+  box-shadow: 0 1px 3px 0 #4299e1,0 1px 2px 0 #4299e1;
+  transform: translateY(-5px);
+}
